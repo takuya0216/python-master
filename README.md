@@ -1,2 +1,3 @@
-# autoencoder(docker)
-Anomaly detection with autoencoder
+# python-master(docker)
+
+python project master for docker
