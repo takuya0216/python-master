@@ -4,6 +4,7 @@ USER root
 RUN apt-get update && apt-get install -y \
   libgl1-mesa-dev \
   libhdf5-dev \
+  locales  && \
   localedef -f UTF-8 -i ja_JP ja_JP.UTF-8
 
 ENV LANG ja_JP.UTF-8
