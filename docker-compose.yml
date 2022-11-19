@@ -1,0 +1,9 @@
+version: "3"
+services:
+  python3-service:
+    restart: always
+    build: .
+    container_name: "python3-service"
+    tty: true
+    volumes:
+      - ./src_local:/src_container
